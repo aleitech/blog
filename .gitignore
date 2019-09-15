@@ -2,8 +2,7 @@
 yarn.lock
 package-lock.json
 
-# 博客静态页面的.git仓库
-.git
+# 博客静态页面
 dist
 
 .vscode
