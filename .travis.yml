@@ -7,7 +7,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   local_dir: docs/.vuepress/dist
-  github-token: j9a2V3yLpekzbQEY8TQtzDa8IWbMC6sEv/5PjdSxhyA2eKAbXkw2tjuJK0rIcjta84cOzEjxJSUDb6iZZ1xFkch7cqF7NA2EF0CQLSPO2N3a73JgAuWBXI90fCrVkXoY596yVeTUNNjJA8yCLBhERUVBr7mcnerLFi9EQ8/b74txi6qJ8UpCK+G5pt9ce/zgE0ZDBAr7O3hCKfHC9TDjvBYI0P6q7qAl4HiaqyNKQmxJ+yj+8yH3Tocm+U+/h8esNHzgMCQHLXPRbziXsOT7ZUiBuNq5V66qY0ekGcweaZ2C9rawgIKQT41xq8EcQ1TvXpv7xv8zx8zrR2CIeMcBjJ59HuPwyFG4f3SH/PhSukSAWK5m/doCgH514aKwORWhNLp+EfENiszGzuQmLKSBDdv8x4lRbh+VDDkJ4GDnJj3NGDlCuHPPT8RpGpTKYdcvLJXgvV2kMWsgGD0M4x8xjNn+++TBczWU0cvAWzXJaBRn3VAPO/Pq1G22dXRHjSXpU9rsvWECs729cS8Lb+EsSNqPz8pbMvzcfovm8SRsAbLvv/VWuz0m6Mm7ZpfpQzbeiJ7GUvfFACEuuFOy8IzBbbIm/DdgZkHFHnOM92ROm2MAMjxihvKNNuwd7Ima1S/RAUGeSuy+JqFaDIBvAvEFL4kzRk2aEULWyFd/jjQPsgc=
+  github-token: $GITHUB_TOKEN
   keep-history: true
   on:
     branch: master
