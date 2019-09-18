@@ -3,19 +3,14 @@ module.exports = {
   description: '保持简单',
   base: '/blog/',
 
+  theme: '@vuepress/blog',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
-        ]
-      }
+      { text: 'Technology', link: '/tech/' },
+      { text: 'Math', link: '/math/' },
+      { text: 'Life', link: '/life/' },      
+      { text: 'Tags', link: '/tag/'}
     ],
     sidebar: [
       '/'
