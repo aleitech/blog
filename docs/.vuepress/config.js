@@ -16,10 +16,7 @@ module.exports = {
           { text: 'Japanese', link: '/language/japanese/' }
         ]
       }
-    ]
-  },
-
-  themeConfig: {
+    ],
     sidebar: [
       '/'
     ]
