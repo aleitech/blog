@@ -1,7 +1,7 @@
 module.exports = {
   "title": "Alei's Blog",
   "description": "Keep it simple",
-  "base": '/blog/',
+  "base": '/',
   "dest": "public",
   "head": [
     [
