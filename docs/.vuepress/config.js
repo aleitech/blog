@@ -86,8 +86,8 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "Alei",
-    "record": "xxxx",
-    "startYear": "2017"
+    "record": "Free",
+    "startYear": "2015"
   },
   "markdown": {
     "lineNumbers": true

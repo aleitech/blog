@@ -9,6 +9,11 @@ heroImageStyle: {
   background: '#fff',
   borderRadius: '1rem',
 }
+bgImage: /home-bg.jpg
+bgImageStyle: {
+  height: '350px'
+}
+faceImage: head.png
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
