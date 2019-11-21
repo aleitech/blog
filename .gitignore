@@ -3,7 +3,7 @@ yarn.lock
 package-lock.json
 
 # 博客静态页面
-dist
-public
+/dist
+/public
 
 .vscode
