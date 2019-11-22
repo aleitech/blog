@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: '/hero.png'
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
@@ -9,11 +9,11 @@ heroImageStyle: {
   background: '#fff',
   borderRadius: '1rem',
 }
-bgImage: /home-bg.jpg
+bgImage: '/home-bg.jpg'
 bgImageStyle: {
   height: '350px'
 }
-faceImage: head.png
+faceImage: 'head.png'
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
