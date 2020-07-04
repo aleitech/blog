@@ -43,9 +43,9 @@ module.exports = {
           },
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/aleitech",
             "icon": "reco-github"
-          },
+          }
           {
             "text": "简书",
             "link": "https://www.jianshu.com/u/cd674a19515e",
