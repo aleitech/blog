@@ -67,9 +67,20 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "Alei",
     "record": "Free",
-    "startYear": "2015"
+    "startYear": "2014"
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  plugins: [
+    [
+      "vuepress-plugin-mathjax",
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+  ]
 }
