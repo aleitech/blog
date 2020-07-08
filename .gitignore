@@ -7,3 +7,6 @@ package-lock.json
 /public
 
 .vscode
+
+aliyun-deploy.sh
+gitee-deploy.sh
