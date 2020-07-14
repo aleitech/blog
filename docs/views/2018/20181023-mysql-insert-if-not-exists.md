@@ -1,5 +1,5 @@
 ---
-title:  "mysql不重复插入"
+title:  "MySQL：不重复插入"
 date:  2018-10-23 09:08:12
 categories: 
   - 数据库
