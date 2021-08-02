@@ -24,7 +24,7 @@ jobs:
 
       # 部署到 GitHub Pages
       - name: Deploy
-        uses: aleitech/blog@master
+        uses: JamesIves/github-pages-deploy-action@master
         with:
           AlEI_TOKEN: ${{ secrets.AlEI_TOKEN }}
           BRANCH: gh-pages
