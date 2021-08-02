@@ -26,7 +26,7 @@ jobs:
       - name: Deploy
         uses: aleitech/blog@master
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          AlEI_TOKEN: ${{ secrets.AlEI_TOKEN }}
           BRANCH: gh-pages
           FOLDER: public
 
