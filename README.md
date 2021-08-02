@@ -22,7 +22,7 @@ cd my-blog
 npm install
 
 # run
-npm run dev
+npm run dev 
 
 # build
 npm run build
