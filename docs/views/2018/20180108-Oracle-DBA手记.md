@@ -16,7 +16,7 @@ tags:
 * 新建连接，要求用户具有DBA权限
 * Connections-Connection-Performance-AWR-AWR Report View
 * 选择snapshot id，显示空白，无法正常使用
-![无法选择snapshot](/img/in-post/20180109-snapshot-no-results.png)
+![无法选择snapshot](/blog/img/in-post/20180109-snapshot-no-results.png)
 
 ## 检查信息统计的级别
 
@@ -44,7 +44,7 @@ select * from dba_hist_active_sess_history;
 ## 检查快照
 
 * 查询
-![查询快照](/img/in-post/20180109-snapshot-not-work.png)
+![查询快照](/blog/img/in-post/20180109-snapshot-not-work.png)
 
 * 快照的sample_time，远远落后于当前日期2018-01-03，说明快照已经多日未生成 
 
@@ -65,7 +65,7 @@ select b.file_id 文件ID号,
 order by b.tablespace_name, b.file_id; 
 ```
 
-![查询表空间](/img/in-post/20180109-datafiles-no-free.png)
+![查询表空间](/blog/img/in-post/20180109-datafiles-no-free.png)
 
 * SYSAUX表空间，是快照存储的表空间，已经耗尽，导致快照备份功能停止
 * 查询SYSAUX表空间的使用情况
