@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[63],{633:function(t,e,n){"use strict";n.r(e);var s=n(6),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("ul",[e("li",[this._v("一般是词根重读，词缀轻读")])])])}),[],!1,null,null,null);e.default=l.exports}}]);
