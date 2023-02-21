@@ -5,12 +5,15 @@ on:
   push:
     branches:
       - master
+permissions:
+  contents: write      
 
 # 任务
 jobs:
   build-and-deploy:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
+    concurrency: ci-${{ github.ref }}
     steps:
       # 拉取代码
       - name: Checkout
@@ -19,8 +22,10 @@ jobs:
           persist-credentials: false
 
       # 生成静态文件
-      - name: Build
-        run: yarn && yarn build
+      - name: Install and Build 
+        run: |
+          npm ci
+          npm run build
 
       # 部署到 GitHub Pages
       - name: Deploy
