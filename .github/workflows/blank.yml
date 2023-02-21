@@ -24,7 +24,7 @@ jobs:
 
       # 部署到 GitHub Pages
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.0.0
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           AlEI_TOKEN: ${{ secrets.AlEI_TOKEN }}
           BRANCH: gh-pages
