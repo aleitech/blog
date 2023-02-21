@@ -24,6 +24,7 @@ jobs:
       # 生成静态文件
       - name: Install and Build 
         run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
           npm ci
           npm run build
 
